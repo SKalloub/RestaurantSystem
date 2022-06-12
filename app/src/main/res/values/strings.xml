@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FinalProject-RestApp</string>
+    <string name="view_all">View All</string>
+    <string name="all_items">All Items</string>
+    <string name="popular">Popular</string>
+    <string name="text_label_1">Liked</string>
+    <string name="text_label_2">Menu</string>
+    <string name="text_label_3">Cart</string>
+    <string name="topliked">Top Liked</string>
+    <string name="add_to_cart">Add To Cart</string>
+</resources>
