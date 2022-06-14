@@ -4,11 +4,26 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/drawable/addtocartbutton.xml" value="0.1985" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/drawable/btn.xml" value="0.1" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/drawable/getstartedbutton.xml" value="0.1" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/activity_cart.xml" value="0.1" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/activity_employee_home.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/activity_getstarted.xml" value="0.21" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/activity_main2.xml" value="0.16259057971014493" />
         <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/activity_menu.xml" value="0.33" />
         <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/activity_order_page.xml" value="0.1" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/activity_register.xml" value="0.1" />
         <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/activity_search_bar.xml" value="0.22" />
         <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/card_item.xml" value="0.5" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/card_item2.xml" value="0.25" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/layout_login.xml" value="0.16259057971014493" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/layout_register.xml" value="0.5218023255813954" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/login.xml" value="0.1" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/ordercard.xml" value="0.25" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/orderstatus.xml" value="0.21" />
+        <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/signup.xml" value="0.33" />
         <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/layout/slider.xml" value="0.16621376811594202" />
         <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
         <entry key="..\:/Users/SaeedK/AndroidStudioProjects/FinalProjectRestApp/app/src/main/res/menu/searchbar.xml" value="0.20416666666666666" />
@@ -20,5 +35,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.21" />
+      </ProjectState>
+    </option>
   </component>
 </project>

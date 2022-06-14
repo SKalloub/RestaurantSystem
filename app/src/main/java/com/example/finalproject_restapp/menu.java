@@ -1,5 +1,6 @@
 package com.example.finalproject_restapp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -48,6 +49,7 @@ public class menu extends AppCompatActivity implements ItemsAdapter.ListItemClic
         for (Item item: list)
         sItems1.add(new SItem(((int) (Math.random()*10))%5+4,item.getName(),"Cheesy Mozarella",Double.parseDouble(item.getPrice()+".99"),3));
     }
+
 
     @Override
     public void onItemListenClick(int clickedItemIndex) {

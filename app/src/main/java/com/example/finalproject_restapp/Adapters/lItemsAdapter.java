@@ -1,39 +1,28 @@
 package com.example.finalproject_restapp.Adapters;
 
 import android.content.Intent;
-import android.content.res.Resources;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.core.content.ContextCompat;
-import androidx.core.content.res.ResourcesCompat;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.finalproject_restapp.OrderPage;
 import com.example.finalproject_restapp.R;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
-public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.mitem> {
+public class lItemsAdapter extends RecyclerView.Adapter<lItemsAdapter.mitem>{
 
     ArrayList<SItem> sItems;
-    final private ListItemClickListener listItemClickListener;
+    final private lItemsAdapter.ListItemClickListener listItemClickListener;
     AppCompatActivity activity;
-    public ItemsAdapter(ArrayList<SItem> sItems, ListItemClickListener listItemClickListener, AppCompatActivity activity) {
+    public lItemsAdapter(ArrayList<SItem> sItems, lItemsAdapter.ListItemClickListener listItemClickListener, AppCompatActivity activity) {
         this.listItemClickListener = listItemClickListener;
         this.sItems = sItems;
         this.activity = activity;
@@ -41,16 +30,16 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.mitem> {
 
     @NonNull
     @Override
-    public mitem onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_item, parent,false);
-        return new mitem(view);
+    public lItemsAdapter.mitem onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_item2, parent,false);
+        return new lItemsAdapter.mitem(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull mitem holder, int position) {
+    public void onBindViewHolder(@NonNull lItemsAdapter.mitem holder, int position) {
         SItem item = sItems.get(position);
         if (item.image==6)
-        holder.imageView.setImageDrawable(activity.getResources().getDrawable(R.drawable.pizza));
+            holder.imageView.setImageDrawable(activity.getResources().getDrawable(R.drawable.pizza));
         else if (item.image==7)
             holder.imageView.setImageDrawable(activity.getResources().getDrawable(R.drawable.tiffin));
         else if (item.image==8)
@@ -65,8 +54,6 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.mitem> {
         holder.itemPrice.setText(item.price+"");
         holder.dollar.setText("$");
         holder.itemDesc.setText(item.desc);
-        if (holder.quantity!=null)
-        holder.quantity.setText(item.quantity);
     }
 
     @Override
@@ -84,7 +71,6 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.mitem> {
         TextView itemDesc;
         TextView itemPrice;
         TextView dollar;
-        TextView quantity;
 
         ConstraintLayout constraintLayout;
         public mitem(@NonNull View itemView) {
@@ -95,7 +81,6 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.mitem> {
             itemDesc = itemView.findViewById(R.id.itemDesc);
             itemPrice = itemView.findViewById(R.id.price);
             dollar = itemView.findViewById(R.id.dollar);
-            quantity = itemView.findViewById(R.id.quan);
         }
 
         @Override

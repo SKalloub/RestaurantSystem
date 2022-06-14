@@ -21,14 +21,14 @@ public class ItemRes implements ItemRepository {
     }
     public static ArrayList<Item> items = new ArrayList<>() {{
         add(new Item(0, "Biryani", 10, "salad"));
-        add(new Item(1, "Barbeque", 10, "salad"));
-        add(new Item(2, "Inferno Chicken", 10, "main"));
-        add(new Item(3, "Beef Burger", 10, "main"));
-        add(new Item(4, "Saucy Fries", 10, "appetizers"));
-        add(new Item(5, "Greece Salad", 10, "salad"));
-        add(new Item(6, "Danish Salad", 10, "salad"));
-        add(new Item(7, "Quru Pizza", 10, "main"));
-        add(new Item(8, "Cheese Burger", 10, "main"));
+        add(new Item(1, "Barbeque", 7, "salad"));
+        add(new Item(2, "Inferno Chicken", 6, "main"));
+        add(new Item(3, "Beef Burger", 12, "main"));
+        add(new Item(4, "Saucy Fries", 11, "appetizers"));
+        add(new Item(5, "Greece Salad", 5, "salad"));
+        add(new Item(6, "Danish Salad", 6, "salad"));
+        add(new Item(7, "Quru Pizza", 7, "main"));
+        add(new Item(8, "Cheese Burger", 7, "main"));
 
     }};
 

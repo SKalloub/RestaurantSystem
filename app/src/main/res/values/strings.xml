@@ -8,4 +8,10 @@
     <string name="text_label_3">Cart</string>
     <string name="topliked">Top Liked</string>
     <string name="add_to_cart">Add To Cart</string>
+    <string name="get_started">Get Started</string>
+    <string name="registration">Create New Account</string>
+    <string name="Register">Register</string>
+    <string name="Clear">Clear</string>
+    <string name="Back">Back</string>
+
 </resources>
